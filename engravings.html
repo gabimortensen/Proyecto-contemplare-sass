@@ -13,15 +13,22 @@
 <body>
     
 
-    <header class="header">
-        <nav class="header-nav">
-            <a href="index.html" class="header-nav-a"> Home </a>
-            <a href="artworks.html" class="header-nav-a"> Artworks </a>
-            <a href="artists.html" class="header-nav-a"> Artists </a>
-            <a href="exhibitions.html" class="header-nav-a"> Exhibitions </a>
-            <a href="contact.html" class="header-nav-a"> Contact </a>
-        </nav>
-    </header>
+  <header class="header">
+    <nav class="header-nav">
+        <a href="index.html" class="header-nav-a"> Home </a>
+        <a class="nav-link dropdown-toggle header-nav-a" href="artworks.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown">  Artworks</a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="margin: 0;">
+                <li><a class="dropdown-item header-nav-a" href="drawings.html" style="background-color: #E5DCC3; color: #9A9483;">Drawings</a></li>
+                <li><a class="dropdown-item header-nav-a" href="paintings.html" style="background-color: #9A9483; color: #E5DCC3;">Paintings</a></li>
+                <li><a class="dropdown-item header-nav-a" href="sculptures.html" style="background-color: #E5DCC3; color: #9A9483;">Sculptures</a></li>
+                <li><a class="dropdown-item header-nav-a" href="engravings.html" style="background-color: #9A9483; color: #E5DCC3;">Engravings</a></li>
+                
+              </ul>
+        <a href="artists.html" class="header-nav-a"> Artists </a>
+        <a href="exhibitions.html"class="header-nav-a"> Exhibitions </a>
+        <a href="contact.html"class="header-nav-a"> Contact </a>
+    </nav>
+</header>
 
     <div class="container-engravings">
         <div class="row row-cols-1 row-cols-2 row-cols-3 row-cols-4 

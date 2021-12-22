@@ -1,0 +1,51 @@
+
+/*index*/
+
+ 
+.home-contemplare{ 
+    margin-left: 125px;
+    margin-top: 10px; 
+    font-size: 20px;
+    color: #9A9483;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: left;
+    font-size: x-large;
+    
+}
+
+.welcome{
+    margin-right: 110px;
+    display: block;
+    flex-direction: column;
+    text-align: right;
+    font-size: large;
+    color: #9A9483;
+   }
+
+
+.container{
+    width: 450px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+/*variables*/
+$font-footer: 'Neuton', serif;
+$footer-align: right;
+$footer-margin-right: 3%;
+
+.privacidad{
+    font-family: $font-footer;
+    text-align: $footer-align;
+    margin-right: $footer-margin-right;
+}
+
+.contemplare{
+    font-family: $font-footer;
+    text-align: $footer-align;
+    margin-right: $footer-margin-right;
+}

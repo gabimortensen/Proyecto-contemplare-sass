@@ -1,0 +1,20 @@
+{
+  "name": "mortensenproyectocontemplare",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sassProyecto": "sass --watch scss/style.scss style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabimortensen/Segunda-entrga-Preproyecto.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabimortensen/Segunda-entrga-Preproyecto/issues"
+  },
+  "homepage": "https://github.com/gabimortensen/Segunda-entrga-Preproyecto#readme"
+}

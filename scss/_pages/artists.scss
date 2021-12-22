@@ -1,0 +1,30 @@
+/*artists*/
+
+ .artist {
+    width: 110%;
+    height: 100%;
+    transition: height 3s, width 3s;       
+ 
+       &:hover{ 
+            width: 120%;
+            height: 110%;
+         }
+}
+
+
+ /*variables*/
+$font-footer: 'Neuton', serif;
+$footer-align: right;
+$footer-margin-right: 3%;
+
+.privacidad{
+    font-family: $font-footer;
+    text-align: $footer-align;
+    margin-right: $footer-margin-right;
+}
+
+.contemplare{
+    font-family: $font-footer;
+    text-align: $footer-align;
+    margin-right: $footer-margin-right;
+}

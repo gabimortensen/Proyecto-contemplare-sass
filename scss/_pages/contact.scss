@@ -1,0 +1,61 @@
+/*contact*/
+
+
+ .parrafo-contacto{
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    justify-content: left;
+    font-family: 'Volkhov', serif;
+    font-size:large ;
+    margin: 4%;
+    float: left;
+        
+}
+
+.form-fieldset{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content:space-around; 
+    text-align: right;
+    margin: 5%;
+    float: right;
+    
+}
+
+.form-fieldset-legend{
+    font-family: 'Volkhov', serif; 
+    font-size:large ;
+    text-align: right;
+    margin: 5px;
+    background-color: #FAF1E6;   
+}
+
+.form-fieldset-formulario{
+    font-family: 'Volkhov', serif;
+    font-size:large ;
+    text-align: right;
+    margin: 5px;
+        
+    
+}
+
+
+ /*variables*/
+$font-footer: 'Neuton', serif;
+$footer-align: right;
+$footer-margin-right: 3%;
+
+.privacidad{
+    font-family: $font-footer;
+    text-align: $footer-align;
+    margin-right: $footer-margin-right;
+}
+
+.contemplare{
+    font-family: $font-footer;
+    text-align: $footer-align;
+    margin-right: $footer-margin-right;
+}
