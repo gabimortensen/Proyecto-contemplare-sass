@@ -172,7 +172,13 @@ body{
         
 }
 
+.artist{
+    transition: all 3s;
+}
 
+.artist:hover{
+    width: 110%;
+}
 .privacidad{
     font-family: 'Neuton', serif;
     text-align: right;
