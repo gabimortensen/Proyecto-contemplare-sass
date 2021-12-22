@@ -1,0 +1,513 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/*Home*/
+
+
+
+
+body{
+    background-image: url(./img/margaritas.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+ .header{
+    background-image: linear-gradient(to bottom, #9A9483, #E5DCC3);
+     margin-top: 0%;
+     position: relative;
+     width: 100%;
+     height: 100%;
+     
+ }
+
+ .header-nav{
+    text-align: right;
+    border: 3px ;  
+    padding: 2% ;
+    
+    }
+
+.header-nav-a{
+    text-decoration: none;
+    color: #DED7B1;
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+.home-contemplare{ 
+    margin-left: 125px;
+    margin-top: 10px; 
+    font-size: 20px;
+    color: #9A9483;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    justify-content: left;
+    font-size: x-large;
+    
+}
+
+.welcome{
+    margin-right: 110px;
+    display: block;
+    flex-direction: column;
+    text-align: right;
+    font-size: large;
+    color: #9A9483;
+   }
+
+
+.container{
+    width: 450px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+
+.privacidad{
+    font-family: 'Neuton', serif;
+    text-align: right;
+    margin-right: 3%;
+}
+
+.contemplare{
+    font-family: 'Neuton', serif;
+    text-align: right;
+    margin-right: 3%;
+}
+
+/*artworks*/
+
+
+
+body{
+    background-image: url(./img/margaritas.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.header{
+    background-image: linear-gradient(to bottom, #9A9483, #E5DCC3);
+     margin-top: 0%;
+     position: relative;
+     width: 100%;
+     height: 100%;
+     
+ }
+
+ .header-nav{
+    text-align: right;
+    border: 3px ;  
+    padding: 2% ;
+    
+    }
+
+.header-nav-a{
+    text-decoration: none;
+    color: #DED7B1;
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+
+.privacidad{
+    font-family: 'Neuton', serif;
+    text-align: right;
+    margin-right: 3%;
+}
+
+.contemplare{
+    font-family: 'Neuton', serif;
+    text-align: right;
+    margin-right: 3%;
+}
+
+
+
+/*artists*/
+
+body{
+    background-image: url(./img/margaritas.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+
+.header{
+    background-image: linear-gradient(to bottom, #9A9483, #E5DCC3);
+     margin-top: 0%;
+     position: relative;
+     width: 100%;
+     height: 100%;
+     
+ }
+
+ .header-nav{
+    text-align: right;
+    border: 3px ;  
+    padding: 2% ;
+    
+    }
+
+.header-nav-a{
+    text-decoration: none;
+    color: #DED7B1;
+    font-size: 20px;
+    padding: 10px;
+        
+}
+
+
+.privacidad{
+    font-family: 'Neuton', serif;
+    text-align: right;
+    margin-right: 3%;
+}
+
+.contemplare{
+    font-family: 'Neuton', serif;
+    text-align: right;
+    margin-right: 3%;
+}
+
+/*exhibitions*/
+
+
+body{
+    background-image: url(./img/margaritas.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+ .header{
+    background-image: linear-gradient(to bottom, #9A9483, #E5DCC3);
+     margin-top: 0%;
+     position: relative;
+     width: 100%;
+     height: 100%;
+     
+ }
+
+ .header-nav{
+    text-align: right;
+    border: 3px ;  
+    padding: 2% ;
+    
+    }
+
+.header-nav-a{
+    text-decoration: none;
+    color: #DED7B1;
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+.container-exh{
+    width:fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.section-article-exh{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content:space-between;    
+       
+}
+ 
+
+
+.img-exhibition1{
+    width: 70%;
+    
+}
+
+.img-exhibition2{
+    margin-top: 10px ;
+    width: 40%;
+}
+
+.parrafo-exh1{
+    font-family: 'Neuton', serif;
+    text-decoration:underline; 
+    font-size:xx-large ;
+    text-align: left;
+    margin: 10px;
+    margin-left: 35px;
+}
+
+.parrafo-exh2{
+    font-family: 'Neuton', serif;
+    font-size:large ;
+    text-align: left;
+    margin: 20px;
+    display: flex;
+    flex-direction: row;
+        
+}
+
+
+.privacidad{
+    font-family: 'Neuton', serif;
+    text-align: right;
+    margin-right: 3%;
+}
+
+.contemplare{
+    font-family: 'Neuton', serif;
+    text-align: right;
+    margin-right: 3%;
+}
+
+/*contact*/
+
+
+body{
+    background-image: url(./img/margaritas.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+
+.contact-contemplare{
+    font-family: 'Neuton', serif;
+    font-size:x-large;
+    color: #E5DCC3 ;
+    background-color: #C7BEA2;
+    text-align: center;
+ }
+
+ .header{
+    background-image: linear-gradient(to bottom, #9A9483, #E5DCC3);
+     margin-top: 0%;
+     position: relative;
+     width: 100%;
+     height: 100%;
+     
+ }
+
+ .header-nav{
+    text-align: right;
+    border: 3px ;  
+    padding: 2% ;
+    
+    }
+
+.header-nav-a{
+    text-decoration: none;
+    color: #DED7B1;
+    font-size: 20px;
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+
+.parrafo-contacto{
+    display: flex;
+    flex-direction: column;
+    text-align:left;
+    justify-content: left;
+    font-family: 'Neuton', serif;
+    font-size:large ;
+    margin: 5%;
+    float: left;
+        
+}
+
+.form-fieldset{
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content:space-around; 
+    text-align: right;
+    margin: 5%;
+    float: right;
+    
+}
+
+.form-fieldset-legend{
+    font-family: 'Neuton', serif;
+    font-size:large ;
+    text-align: right;
+    margin: 5px;
+    background-color: #FAF1E6;   
+}
+
+.form-fieldset-formulario{
+    font-family: 'Neuton', serif;
+    font-size:large ;
+    text-align: right;
+    margin: 5px;
+        
+    
+}
+
+
+.privacidad{
+    font-family: 'Neuton', serif;
+    text-align: right;
+    margin-right: 3%;
+}
+
+.contemplare{
+    font-family: 'Neuton', serif;
+    text-align: right;
+    margin-right: 3%;
+}
+
+@media screen and (max-width: 768px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    
+    body {
+        background-size: cover;
+    }
+    
+    /*index*/
+
+    
+    .header{
+        background-image: linear-gradient(to bottom, #9A9483, #E5DCC3);
+         margin-top: 0%;
+         position: relative;
+         width: 100%;
+         height: 100%;
+         
+     }
+    
+     .header-nav{
+        text-align: center;
+        border: 2px ;  
+        padding: 1% ;
+        
+        }
+    
+    .header-nav-a{
+        text-decoration: none;
+        color: #DED7B1;
+        font-size: 15px;
+        padding: 10px;
+        display: inline-block;
+        
+    }
+
+
+    .home-contemplare{
+        margin: 2px;
+        font-size: medium;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+    }
+    .welcome{
+        margin: 2px;
+        font-size: medium;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+
+    }
+
+    
+    .container{
+        width: 70%;
+    }
+
+    /*artworks*/
+    .row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .col{
+        width: 80%;
+        height: 80%;
+        justify-content: space-around;
+    }
+
+    /*exhibitions*/
+    .container-exh{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    /*contact*/
+    .parrafo-contacto{
+        display: flex;
+        flex-direction: column;
+        text-align:center;
+        justify-content: center;
+        font-family: 'Neuton', serif;
+        font-size:large ;
+        margin: 3%;
+        float: center;
+            
+    }
+    
+    .form-fieldset{
+        display: flex;
+        flex-direction:column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-content:space-around; 
+        text-align: center;
+        margin: 3%;
+        float: center;
+        
+    }
+    
+    .form-fieldset-legend{
+        font-family: 'Neuton', serif;
+        font-size:large ;
+        text-align: center;
+        margin: 3px;
+        background-color: #FAF1E6;   
+        width: 70%;
+    }
+    
+    .form-fieldset-formulario{
+        font-family: 'Neuton', serif;
+        font-size:large ;
+        text-align: center;
+        margin: 3px;
+        width: 70%;
+        
+            
+        
+    }
+    
+}
+    
