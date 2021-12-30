@@ -1,0 +1,49 @@
+En el archivo index.html sumé el SEO con las siguientes características:
+* description: Website dedicated to art. Learn about historical artists and their works.
+* keywords: art, artists, paintings, sculptures, engravings, drawings, exhibitions, monet, claudel, da-vinci, dürer
+* title: Home
+* encabezado: para el encabezado del h1 utilicé el texto “C O N T E M P L A R E”
+
+
+En el archivo artworks.html sumé el SEO con las siguientes características:
+* description: Website dedicated to art. Learn about historical artists and their works.
+* keywords: art, artists, paintings, sculptures, engravings, drawings.
+* title: Artworks
+
+
+En el archivo drawings.html sumé el SEO con las siguientes características:
+* description: Works of art: drawings.
+* keywords: art, artists, drawings, da-vinci, rubens.
+* title: Drawings
+* encabezado: para el encabezado del h2 utilicé el texto “D R A W I N G S”
+
+
+En el archivo paintings.html sumé el SEO con las siguientes características:
+* description: Works of art: paintings.
+* keywords: art, artists, paintings, monet, van-gogh.
+* title: Paintings
+* encabezado: para el encabezado del h2 utilicé el texto “P A I N T I N G S”
+
+En el archivo sculptures.html sumé el SEO con las siguientes características:
+* description: Works of art: sculptures.
+* keywords: art, artists, sculptures, claudel, canova.
+* title: Sculptures
+* encabezado: para el encabezado del h2 utilicé el texto “S C U L P T U R E S”
+
+En el archivo engravings.html sumé el SEO con las siguientes características:
+* description: Works of art: engravings.
+* keywords: art, artists, engravings, dürer, goya.
+* title: Engravings
+* encabezado: para el encabezado del h2 utilicé el texto “E N G R A V I N G S ”
+
+En el archivo artists.html sumé el SEO con las siguientes características:
+* description: Life of artists.
+* keywords: art, artists, life, history, dürer, goya, claudel, canova, monet, van-gogh, da-vinci, rubens.
+* title: Artists
+* encabezado: para el encabezado del h2 utilicé el texto “A R T I S T S”
+
+En el archivo exhibitions.html sumé el SEO con las siguientes características:
+* description: Art exhibitions.
+* keywords: art, artists, exhibitions, met, Louvre.
+* title: Exhibitions
+* encabezado: para el encabezado del h2 utilicé el texto “E X H I B I T I O N S”

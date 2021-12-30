@@ -66,6 +66,17 @@ body {
 }
 
 /*artworks-drawings*/
+.artworks {
+  margin-top: 16px;
+  font-size: 20px;
+  color: #9A9483;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: center;
+  font-size: x-large;
+}
+
 /*variables*/
 .privacidad, .contemplare {
   font-family: "Neuton", serif;
@@ -74,6 +85,17 @@ body {
 }
 
 /*artworks-paintings*/
+.artworks {
+  margin-top: 16px;
+  font-size: 20px;
+  color: #9A9483;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: center;
+  font-size: x-large;
+}
+
 /*variables*/
 .privacidad, .contemplare {
   font-family: "Neuton", serif;
@@ -82,6 +104,17 @@ body {
 }
 
 /*artworks-sculptures*/
+.artworks {
+  margin-top: 16px;
+  font-size: 20px;
+  color: #9A9483;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: center;
+  font-size: x-large;
+}
+
 /*variables*/
 .privacidad, .contemplare {
   font-family: "Neuton", serif;
@@ -90,6 +123,17 @@ body {
 }
 
 /*artworks-engravings*/
+.artworks {
+  margin-top: 16px;
+  font-size: 20px;
+  color: #9A9483;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: center;
+  font-size: x-large;
+}
+
 /*variables*/
 .privacidad, .contemplare {
   font-family: "Neuton", serif;
@@ -98,6 +142,17 @@ body {
 }
 
 /*artists*/
+.artworks {
+  margin-top: 16px;
+  font-size: 20px;
+  color: #9A9483;
+  display: flex;
+  flex-direction: row;
+  text-decoration: none;
+  justify-content: center;
+  font-size: x-large;
+}
+
 .artist {
   width: 110%;
   height: 100%;
