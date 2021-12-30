@@ -1,3 +1,11 @@
+$colores: (
+    brown: #9A9483,
+    beige-pink: #E5DCC3,
+    beige: #DED7B1,
+    );
+
+ 
+
 .header{
     background-image: linear-gradient(to bottom, #9A9483, #E5DCC3);
      margin-top: 0%;
@@ -12,7 +20,7 @@
 
         a{
             text-decoration: none;
-            color: #DED7B1;
+            color: map-get($map: $colores, $key: beige);
             font-size: 20px;
             padding: 10px;
             display: inline-block;
