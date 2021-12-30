@@ -6,13 +6,11 @@ $footer-align: right;
 $footer-margin-right: 3%;
 
 .privacidad{
-    font-family: $font-footer;
-    text-align: $footer-align;
-    margin-right: $footer-margin-right;
+    font-family: 'Neuton', serif;
+    text-align: right;
+    margin-right: 3%;
 }
 
 .contemplare{
-    font-family: $font-footer;
-    text-align: $footer-align;
-    margin-right: $footer-margin-right;
+    @extend .privacidad
 }

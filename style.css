@@ -59,13 +59,7 @@ body {
 }
 
 /*variables*/
-.privacidad {
-  font-family: "Neuton", serif;
-  text-align: right;
-  margin-right: 3%;
-}
-
-.contemplare {
+.privacidad, .contemplare {
   font-family: "Neuton", serif;
   text-align: right;
   margin-right: 3%;
@@ -73,13 +67,7 @@ body {
 
 /*artworks-drawings*/
 /*variables*/
-.privacidad {
-  font-family: "Neuton", serif;
-  text-align: right;
-  margin-right: 3%;
-}
-
-.contemplare {
+.privacidad, .contemplare {
   font-family: "Neuton", serif;
   text-align: right;
   margin-right: 3%;
@@ -87,13 +75,7 @@ body {
 
 /*artworks-paintings*/
 /*variables*/
-.privacidad {
-  font-family: "Neuton", serif;
-  text-align: right;
-  margin-right: 3%;
-}
-
-.contemplare {
+.privacidad, .contemplare {
   font-family: "Neuton", serif;
   text-align: right;
   margin-right: 3%;
@@ -101,13 +83,7 @@ body {
 
 /*artworks-sculptures*/
 /*variables*/
-.privacidad {
-  font-family: "Neuton", serif;
-  text-align: right;
-  margin-right: 3%;
-}
-
-.contemplare {
+.privacidad, .contemplare {
   font-family: "Neuton", serif;
   text-align: right;
   margin-right: 3%;
@@ -115,13 +91,7 @@ body {
 
 /*artworks-engravings*/
 /*variables*/
-.privacidad {
-  font-family: "Neuton", serif;
-  text-align: right;
-  margin-right: 3%;
-}
-
-.contemplare {
+.privacidad, .contemplare {
   font-family: "Neuton", serif;
   text-align: right;
   margin-right: 3%;
@@ -138,14 +108,7 @@ body {
   height: 110%;
 }
 
-/*variables*/
-.privacidad {
-  font-family: "Neuton", serif;
-  text-align: right;
-  margin-right: 3%;
-}
-
-.contemplare {
+.privacidad, .contemplare {
   font-family: "Neuton", serif;
   text-align: right;
   margin-right: 3%;
@@ -196,13 +159,7 @@ body {
 }
 
 /*variables*/
-.privacidad {
-  font-family: "Neuton", serif;
-  text-align: right;
-  margin-right: 3%;
-}
-
-.contemplare {
+.privacidad, .contemplare {
   font-family: "Neuton", serif;
   text-align: right;
   margin-right: 3%;
@@ -246,14 +203,7 @@ body {
   margin: 5px;
 }
 
-/*variables*/
-.privacidad {
-  font-family: "Neuton", serif;
-  text-align: right;
-  margin-right: 3%;
-}
-
-.contemplare {
+.privacidad, .contemplare {
   font-family: "Neuton", serif;
   text-align: right;
   margin-right: 3%;
