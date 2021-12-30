@@ -47,3 +47,9 @@ En el archivo exhibitions.html sumé el SEO con las siguientes características:
 * keywords: art, artists, exhibitions, met, Louvre.
 * title: Exhibitions
 * encabezado: para el encabezado del h2 utilicé el texto “E X H I B I T I O N S”
+
+En el archivo contact.html sumé el SEO con las siguientes características:
+* description: Contact us.
+* keywords: art, artists, paintings, sculptures, engravings, drawings, exhibitions, contact.
+* title: Contact
+* encabezado: para el encabezado del h2 utilicé el texto “C O N T A C T” 
