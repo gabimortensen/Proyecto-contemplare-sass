@@ -228,6 +228,16 @@ body {
   flex-direction: row;
 }
 
+.parrafo-exh3 {
+  font-family: "Gelasio", serif;
+  font-size: x-large;
+  text-decoration: underline;
+  text-align: left;
+  margin: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
 /*variables*/
 .privacidad, .contemplare {
   font-family: "Neuton", serif;
