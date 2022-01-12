@@ -92,15 +92,24 @@
     .col{
         @include sizes(80%, 80%);
         justify-content: space-around;
-    }
+    } 
 
     /*exhibitions*/
     .container-exh{
         display: flex;
         flex-direction: column;
-        justify-content: center;
+        align-items: center;
+        width: 100%;
+        
     }
 
+    .div-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+   
     /*contact*/
     .parrafo-contacto{
         display: flex;

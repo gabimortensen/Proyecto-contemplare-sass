@@ -228,16 +228,6 @@ body {
   flex-direction: row;
 }
 
-.parrafo-exh3 {
-  font-family: "Gelasio", serif;
-  font-size: x-large;
-  text-decoration: underline;
-  text-align: left;
-  margin: 20px;
-  display: flex;
-  flex-direction: row;
-}
-
 /*variables*/
 .privacidad, .contemplare {
   font-family: "Neuton", serif;
@@ -375,7 +365,14 @@ body {
   .container-exh {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .div-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 
   /*contact*/
