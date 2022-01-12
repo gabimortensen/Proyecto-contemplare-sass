@@ -1,7 +1,6 @@
 /*exhibitions*/
 
-
- .container-exh{
+.container-exh{
     width:fit-content;
     display: flex;
     flex-direction: row;
@@ -10,15 +9,17 @@
     
 }
 
+
+
 .section-article-exh{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
-    align-content:space-between;    
+    align-content:space-between; 
        
 }
- 
+  
 
 
 .img-exhibition1{
@@ -31,6 +32,7 @@
     width: 40%;
 }
 
+
 .parrafo-exh1{
     font-family: 'Volkhov', serif;
     text-decoration:underline; 
@@ -38,6 +40,7 @@
     text-align: left;
     margin: 10px;
     margin-left: 35px;
+    
 }
 
 .parrafo-exh2{

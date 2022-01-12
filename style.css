@@ -5,8 +5,8 @@
 
 body {
   background-image: url(./img/margaritas.png);
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: repeat;
 }
 
 .header {
@@ -18,8 +18,8 @@ body {
 }
 .header nav {
   text-align: right;
-  border: 3px;
-  padding: 2%;
+  border: 2px;
+  padding: 1%;
 }
 .header nav a {
   text-decoration: none;
@@ -30,32 +30,40 @@ body {
 }
 
 /*index*/
-.home-contemplare {
-  margin-left: 125px;
-  margin-top: 10px;
-  font-size: 20px;
-  color: #9A9483;
-  display: flex;
-  flex-direction: row;
-  text-decoration: none;
-  justify-content: left;
+.img-fondo {
+  float: inline-start;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  opacity: 80%;
+}
+
+.parr-index {
+  position: absolute;
+  text-align: center;
+  text-decoration: solid;
+  font-family: "Balthazar", serif;
+  color: white;
+  top: 340px;
+  width: 100%;
+}
+
+.parr-index2 {
+  position: absolute;
+  text-align: center;
+  text-decoration: solid;
+  font-family: "Balthazar", serif;
   font-size: x-large;
+  color: black;
+  top: 410px;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.welcome {
-  margin-right: 110px;
-  display: block;
-  flex-direction: column;
-  text-align: right;
-  font-size: large;
-  color: #9A9483;
-}
-
-.container {
-  width: 450px;
-  padding: 5px;
+.home-contemplare {
+  width: 30%;
   display: flex;
-  justify-content: center;
+  margin-left: 36%;
 }
 
 /*variables*/
@@ -159,8 +167,15 @@ body {
   transition: height 3s, width 3s;
 }
 .artist:hover {
-  width: 120%;
-  height: 110%;
+  width: 115%;
+  height: 105%;
+}
+
+.artist-img {
+  transition: opacity 0% 4s;
+}
+.artist-img:hover {
+  opacity: 80%;
 }
 
 .privacidad, .contemplare {
@@ -297,29 +312,41 @@ body {
   }
 
   /*index*/
-  .home-contemplare {
-    margin: 2px;
-    font-size: medium;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-  }
-
-  .welcome {
-    margin: 2px;
-    font-size: medium;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-  }
-
-  .container {
-    height: 100%;
+  .img-fondo {
     width: 100%;
+    height: 650px;
+    object-fit: none;
+    opacity: 80%;
+  }
+
+  .parr-index {
+    position: absolute;
+    text-align: center;
+    text-decoration: solid;
+    font-family: "Balthazar", serif;
+    font-size: large;
+    color: black;
+    top: 220px;
+    width: 70%;
+    margin-left: 70px;
+  }
+
+  .parr-index2 {
+    position: absolute;
+    text-align: center;
+    text-decoration: solid;
+    font-family: "Balthazar", serif;
+    font-size: large;
+    color: black;
+    top: 300px;
+    width: 70%;
+    margin-left: 70px;
+  }
+
+  .home-contemplare {
+    width: 30;
+    display: flex;
+    margin-left: 40%;
   }
 
   /*artworks*/

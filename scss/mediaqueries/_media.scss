@@ -41,31 +41,47 @@
 
 
      /*index*/
-    .home-contemplare{
-        margin: 2px;
-        font-size: medium;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-
-    }
-    .welcome{
-        margin: 2px;
-        font-size: medium;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-
-    }
-
     
-    .container{
-        @include sizes(50%, none)
+     .img-fondo{
+        width:100%;
+        height: 650px;
+        object-fit: none;
+        opacity: 80%;
+        
     }
+    
+    .parr-index{
+        position: absolute;
+        text-align: center;
+        text-decoration: solid;
+        font-family: 'Balthazar', serif;
+        font-size: large;
+        color: black;
+        top: 220px;
+        width: 70%;
+        margin-left: 70px;
+        
+    }
+    
+    .parr-index2{
+        position: absolute;
+        text-align: center;
+        text-decoration: solid;
+        font-family: 'Balthazar', serif;
+        font-size: large;
+        color: black;
+        top: 300px;
+        width: 70%;
+        margin-left: 70px;
+    }
+    
+    .home-contemplare{
+        width: 30;
+        display: flex;
+        margin-left: 40%;
+        
+    }
+
 
     /*artworks*/
     .row{

@@ -11,15 +11,26 @@
     font-size: x-large;
     
 }
- .artist {
+
+.artist {
     width: 110%;
     height: 100%;
-    transition: height 3s, width 3s;       
+    transition: height 3s, width 3s;  
  
        &:hover{ 
-            width: 120%;
-            height: 110%;
+            width: 115%;
+            height: 105%;
+            
          }
+}
+
+.artist-img{
+    transition: opacity 0% 4s;      
+ 
+    &:hover{ 
+        opacity: 80%;
+
+      }
 }
 
 
