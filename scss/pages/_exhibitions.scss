@@ -54,15 +54,24 @@
 }
 
 
- /*variables*/
-$font-footer: 'Neuton', serif;
-$footer-align: right;
+/*variables*/
+$font-footer: 'Balthazar', serif;
+$footer-align: left;
 $footer-margin-right: 3%;
 
+
+footer{
+    background-image: linear-gradient(to bottom, #E5DCC3, #9A9483);;
+    border: 0px;
+    padding: 2px;
+    
+}
 .privacidad{
-    font-family: 'Neuton', serif;
-    text-align: right;
-    margin-right: 3%;
+    font-family: 'Balthazar', serif;
+    color: white;
+    text-align: left;
+    margin-left: 3%; 
+            
 }
 
 .contemplare{

@@ -67,10 +67,17 @@ body {
 }
 
 /*variables*/
+footer {
+  background-image: linear-gradient(to bottom, #E5DCC3, #9A9483);
+  border: 0px;
+  padding: 2px;
+}
+
 .privacidad, .contemplare {
-  font-family: "Neuton", serif;
-  text-align: right;
-  margin-right: 3%;
+  font-family: "Balthazar", serif;
+  color: white;
+  text-align: left;
+  margin-left: 3%;
 }
 
 /*artworks-drawings*/
@@ -86,10 +93,17 @@ body {
 }
 
 /*variables*/
+footer {
+  background-image: linear-gradient(to bottom, #E5DCC3, #9A9483);
+  border: 0px;
+  padding: 2px;
+}
+
 .privacidad, .contemplare {
-  font-family: "Neuton", serif;
-  text-align: right;
-  margin-right: 3%;
+  font-family: "Balthazar", serif;
+  color: white;
+  text-align: left;
+  margin-left: 3%;
 }
 
 /*artworks-paintings*/
@@ -105,10 +119,17 @@ body {
 }
 
 /*variables*/
+footer {
+  background-image: linear-gradient(to bottom, #E5DCC3, #9A9483);
+  border: 0px;
+  padding: 2px;
+}
+
 .privacidad, .contemplare {
-  font-family: "Neuton", serif;
-  text-align: right;
-  margin-right: 3%;
+  font-family: "Balthazar", serif;
+  color: white;
+  text-align: left;
+  margin-left: 3%;
 }
 
 /*artworks-sculptures*/
@@ -124,10 +145,17 @@ body {
 }
 
 /*variables*/
+footer {
+  background-image: linear-gradient(to bottom, #E5DCC3, #9A9483);
+  border: 0px;
+  padding: 2px;
+}
+
 .privacidad, .contemplare {
-  font-family: "Neuton", serif;
-  text-align: right;
-  margin-right: 3%;
+  font-family: "Balthazar", serif;
+  color: white;
+  text-align: left;
+  margin-left: 3%;
 }
 
 /*artworks-engravings*/
@@ -143,10 +171,17 @@ body {
 }
 
 /*variables*/
+footer {
+  background-image: linear-gradient(to bottom, #E5DCC3, #9A9483);
+  border: 0px;
+  padding: 2px;
+}
+
 .privacidad, .contemplare {
-  font-family: "Neuton", serif;
-  text-align: right;
-  margin-right: 3%;
+  font-family: "Balthazar", serif;
+  color: white;
+  text-align: left;
+  margin-left: 3%;
 }
 
 /*artists*/
@@ -178,10 +213,18 @@ body {
   opacity: 80%;
 }
 
+/*variables*/
+footer {
+  background-image: linear-gradient(to bottom, #E5DCC3, #9A9483);
+  border: 0px;
+  padding: 2px;
+}
+
 .privacidad, .contemplare {
-  font-family: "Neuton", serif;
-  text-align: right;
-  margin-right: 3%;
+  font-family: "Balthazar", serif;
+  color: white;
+  text-align: left;
+  margin-left: 3%;
 }
 
 /*exhibitions*/
@@ -229,10 +272,17 @@ body {
 }
 
 /*variables*/
+footer {
+  background-image: linear-gradient(to bottom, #E5DCC3, #9A9483);
+  border: 0px;
+  padding: 2px;
+}
+
 .privacidad, .contemplare {
-  font-family: "Neuton", serif;
-  text-align: right;
-  margin-right: 3%;
+  font-family: "Balthazar", serif;
+  color: white;
+  text-align: left;
+  margin-left: 3%;
 }
 
 /*contact*/
@@ -252,7 +302,7 @@ body {
   flex-direction: column;
   flex-wrap: wrap;
   justify-content: space-around;
-  align-content: space-around;
+  /*align-content:space-around; */
   text-align: right;
   margin: 5%;
   float: right;
@@ -273,10 +323,18 @@ body {
   margin: 5px;
 }
 
+/*variables*/
+footer {
+  background-image: linear-gradient(to bottom, #E5DCC3, #9A9483);
+  border: 0px;
+  padding: 2px;
+}
+
 .privacidad, .contemplare {
-  font-family: "Neuton", serif;
-  text-align: right;
-  margin-right: 3%;
+  font-family: "Balthazar", serif;
+  color: white;
+  text-align: left;
+  margin-left: 3%;
 }
 
 @media screen and (max-width: 768px) {
