@@ -1,37 +1,30 @@
 /*exhibitions*/
 
-.container-exh{
-    width:fit-content;
-    display: flex;
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 105% 95%;
     flex-direction: row;
     align-items: center;
-    justify-content: center;
-    
+    justify-content: center; 
+             
 }
-
-
 
 .section-article-exh{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content:space-around;
     align-content:space-between; 
        
 }
   
 
 
-.img-exhibition1{
-    width: 70%;
+.img-exhibition1, .img-exhibition2{
+    width: 75%;
     
 }
-
-.img-exhibition2{
-    margin-top: 10px ;
-    width: 40%;
-}
-
 
 .parrafo-exh1{
     font-family: 'Volkhov', serif;

@@ -1,55 +1,31 @@
 /*contact*/
 
-
- .parrafo-contacto{
-    display: flex;
-    flex-direction: column;
-    text-align:left;
-    justify-content: left;
-    font-family: 'Volkhov', serif;
-    font-size:large ;
-    margin: 4%;
-    float: left;
-        
+.container{
+    justify-content: center;
+    align-items: center;
+}
+.container-cards{
+    color: #9A9483;
+       
 }
 
-.form-fieldset{
-    display: flex;
-    flex-direction:column;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    /*align-content:space-around; */
-    text-align: right;
-    margin: 5%;
-    float: right;
-    
+.container-cards-contact{
+    align-items: center; 
+    justify-content: center; 
+    margin-top: 100px; 
+    margin-left: 215px;
 }
 
-.form-fieldset-legend{
-    font-family: 'Volkhov', serif; 
-    font-size:large ;
-    text-align: right;
-    margin: 5px;
-    background-color: #FAF1E6;   
-}
 
-.form-fieldset-formulario{
-    font-family: 'Volkhov', serif;
-    font-size:large ;
-    text-align: right;
-    margin: 5px;
-        
-    
-}
 
 /*variables*/
 $font-footer: 'Balthazar', serif;
 $footer-align: left;
 $footer-margin-right: 3%;
 
- 
+
 footer{
-    background-image: linear-gradient(to bottom, #E5DCC3, #9A9483);;
+    background-image: linear-gradient(to bottom, #E5DCC3, #9A9483);
     border: 0px;
     padding: 2px;
     

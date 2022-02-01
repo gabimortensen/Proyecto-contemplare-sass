@@ -228,9 +228,10 @@ footer {
 }
 
 /*exhibitions*/
-.container-exh {
-  width: fit-content;
-  display: flex;
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 105% 95%;
   flex-direction: row;
   align-items: center;
   justify-content: center;
@@ -244,13 +245,8 @@ footer {
   align-content: space-between;
 }
 
-.img-exhibition1 {
-  width: 70%;
-}
-
-.img-exhibition2 {
-  margin-top: 10px;
-  width: 40%;
+.img-exhibition1, .img-exhibition2 {
+  width: 75%;
 }
 
 .parrafo-exh1 {
@@ -286,41 +282,20 @@ footer {
 }
 
 /*contact*/
-.parrafo-contacto {
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-  justify-content: left;
-  font-family: "Volkhov", serif;
-  font-size: large;
-  margin: 4%;
-  float: left;
+.container {
+  justify-content: center;
+  align-items: center;
 }
 
-.form-fieldset {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  /*align-content:space-around; */
-  text-align: right;
-  margin: 5%;
-  float: right;
+.container-cards {
+  color: #9A9483;
 }
 
-.form-fieldset-legend {
-  font-family: "Volkhov", serif;
-  font-size: large;
-  text-align: right;
-  margin: 5px;
-  background-color: #FAF1E6;
-}
-
-.form-fieldset-formulario {
-  font-family: "Volkhov", serif;
-  font-size: large;
-  text-align: right;
-  margin: 5px;
+.container-cards-contact {
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 215px;
 }
 
 /*variables*/
@@ -420,59 +395,30 @@ footer {
   }
 
   /*exhibitions*/
-  .container-exh {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
+  .grid-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 51% 49%;
   }
 
-  .div-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  /*contact*/
-  .parrafo-contacto {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    font-family: "Volkhov", serif;
-    font-size: large;
-    margin: 3%;
-    float: center;
-  }
-
-  .form-fieldset {
+  .section-article-exh {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .img-exhibition1, .img-exhibition2 {
+    width: 75%;
+  }
+
+  /*contact*/
+  .container-cards-contact {
+    align-items: center;
     justify-content: space-around;
-    align-content: space-around;
-    text-align: center;
-    margin: 3%;
-    float: center;
-  }
-
-  .form-fieldset-legend {
-    font-family: "Volkhov", serif;
-    font-size: large;
-    text-align: center;
-    margin: 3px;
-    background-color: #FAF1E6;
-    height: 100%;
-    width: 100%;
-  }
-
-  .form-fieldset-formulario {
-    font-family: "Volkhov", serif;
-    font-size: large;
-    text-align: center;
-    margin: 3px;
-    height: 100%;
-    width: 100%;
+    margin-top: 30px;
+    margin-left: 0px;
   }
 }
 
